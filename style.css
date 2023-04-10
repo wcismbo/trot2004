@@ -19,7 +19,7 @@ body{
     justify-content:center;
     align-items: center;
     min-height: 100vh;
-    background-color: #FADADD;
+    background-color: black;
 }
 .container {
     width: 950px;
@@ -99,7 +99,7 @@ body{
     height: 35px;
     margin: 0 3px;
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-    background: deeppink;
+    background: #E6BE8A;
     display: flex;
     justify-content: center;
     align-items: center;
