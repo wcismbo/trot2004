@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 0px) {
+    body {
+        font-size: 14px;
+    }
+    header, footer {
+        padding: 10px;
+    }
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FADADD;
+}
+.container {
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container .hexagonArea {
+    display: flex;
+}
+.container .hexagonArea.first{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last2{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last3{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last4{
+    transform:translateX(-285px) ;
+}
+.container .hexagonArea.last5{
+    transform:translateX(-285px);
+}
+.container .hexagonArea.last6{
+    transform:translateX(-285px);
+}
+.container .hexagonArea.last7{
+    transform:translateX(-285px);
+}
+.container .hexagonArea.last8{
+    transform:translateX(-285px);
+}
+.container .hexagonArea.last9{
+    transform:translateX(-285px);
+}
+.container .hexagonArea.last10{
+    transform:translateX(-285px);
+}
+.container .hexagonArea.last11{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last12{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last13{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last14{
+    transform: translate(-285px);
+}
+.container .hexagonArea.last15{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last16{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last17{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last18{
+    transform: translateX(-285px);
+}
+.container .hexagonArea.last19{
+    transform: translateX(-285px);
+}
+.container .hexagonArea .hexagon{
+    position: relative;
+    width: 30px;
+    height: 35px;
+    margin: 0 3px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.container .hexagonArea .hexagon img{
+    width: 47px;
+}
+
+.container .hexagonArea .hexagon h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.container .hexagonArea .hexagon:hover{
+    background: deepskyblue;
+    transform: scale(0.8);
+}
