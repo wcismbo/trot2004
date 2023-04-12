@@ -8,10 +8,11 @@
 
 @media only screen and (max-width: 0px) {
     body {
-        font-size: 14px;
+        font-size: 7px;
+        width: 10000000000px;
     }
     header, footer {
-        padding: 1000000000000000000000000000000000px;
+        padding: 10px;
     }
 }
 body{
